@@ -1,0 +1,102 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(13, 13, 13);
+    height: 40px;
+    width: 100%;
+}
+
+
+nav ul li a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+   background-position: fixed;
+}
+
+
+.abc img {
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    background-color: rgb(26, 24, 25);
+    height: 50px;
+    padding-top: 4%;
+    color: white;
+}
+
+
+.logo1, .c1, .c2, .c3, .g1, .g2, .g3, .g4, .g5, .g6 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#associate {
+    background-color: rgb(12, 10, 6);
+}
+#council, #gallery, #news {
+    background-color: rgb(12, 11, 12);
+}
+
+div {
+    border: 2px solid black;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .logo, .logo1, .c1, .c2, .c3, .g1, .g2, .g3, .g4, .g5, .g6 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        padding-top: 2%;
+        height: auto;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav ul li {
+        padding: 10px;
+    }
+
+    div {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    div {
+        font-size: 12px;
+    }
+}
